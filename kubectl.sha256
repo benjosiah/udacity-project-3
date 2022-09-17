@@ -1,1 +1,1 @@
-<?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Details>No such object: kubernetes-release/bin/linux/amd64/kubectl.sha256</Details></Error>
+ced8ddd1829e640abbdfae92ae8fb82c265e8ada723b21ea460f164f3609209f kubectl
