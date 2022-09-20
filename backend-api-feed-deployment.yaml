@@ -17,10 +17,17 @@ spec:
       containers:
       - name: backend-feed
         image: benjosiah/udagram-api-feed:v1
+        envFrom:
+            - secretRef:
+                name: env-secret
+            - secretRef:
+                name: aws-secret
+            - configMapRef:
+                name: config-map
         resources:
           requests:
-            memory: "30000Mi"
+            memory: "3000Mi"
           limits:
-            memory: "40000Mi"
+            memory: "4000Mi"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
