@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: benjosiah/udagram-frontend:v6
+        image: benjosiah/udagram-frontend:v5
         ports:
         - containerPort: 80
